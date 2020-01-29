@@ -1,0 +1,37 @@
+.container-products {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px #eee solid;
+  width: 250px;
+  height: 350px;
+  margin: 30px;
+  padding: 10px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.product-title {
+  min-height: 30px;
+}
+
+.product-price {
+  color: red;
+}
+
+.product-img {
+  width: 120px;
+  height: 80px;
+  margin: 10px;
+}
+
+.button-add {
+  margin: 5px;
+  color: #fff;
+}

@@ -1,0 +1,26 @@
+.container-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+  align-items: center;
+	background-color: #eee;
+  border-radius: 5px;
+  margin: 15px 0;
+  min-height: 50px;
+}
+
+.shopcart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-shopping-cart {
+  color: crimson;
+}
+
+.button-call {
+  margin: 0 15px;
+  color: crimson;
+}

@@ -1,0 +1,9 @@
+.container-table {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.table-products-in-cart {
+  max-width: 400px;
+}
