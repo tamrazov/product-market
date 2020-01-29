@@ -22,15 +22,15 @@ export const fetchProductSuccess = (res) => {
 }; 
 
 export const addToCartAction = (product) => {
-  return {
-    type: 'ADD_TOCART',
-    payload: product
-  };
+	return {
+		type: 'ADD_TOCART',
+		payload: product
+	};
 };
 
 export const deleteToCartAction = (productIndex) => {
-  return {
-    type: 'DELETE_TOCART',
-    payload: productIndex
-  };
+	return {
+		type: 'DELETE_TOCART',
+		payload: productIndex
+	};
 };
