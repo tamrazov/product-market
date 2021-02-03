@@ -13,9 +13,9 @@ function App() {
 			<div className="container App">
 				<Header />
 				<Switch>
-          <Route exact path="/" render={() => {
-            return <Redirect to="/products" />
-          }} />
+					<Route exact path="/" render={() => {
+						return <Redirect to="/products" />
+					}} />
 					<Route path="/products" component={Products} />
 					<Route path="/shoppingcart" component={ShoppingCart} />
 				</Switch>
